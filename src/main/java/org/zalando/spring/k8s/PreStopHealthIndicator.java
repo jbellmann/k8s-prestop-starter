@@ -35,6 +35,8 @@ public class PreStopHealthIndicator extends AbstractHealthIndicator {
 	 * Executed if actuator endpoint ('/preStop') will be invoked.</br>
 	 * 
 	 * Timeout is {@link #DEFAULT_TIMEOUT}.
+	 * 
+	 * @return response to be serialized
 	 */
 	@ReadOperation
 	public Map<String, String> invokePrestop() {
@@ -45,6 +47,8 @@ public class PreStopHealthIndicator extends AbstractHealthIndicator {
 	 * Executed if actuator endpoint ('/preStop/{timeout_in_seconds}') will be invoked.</br>
 	 * 
 	 * Timeout has to be an integer value.
+	 * 
+	 * @return response to be serialized
 	 */
 	@ReadOperation
 	public Map<String, String> invokePrestopWithTime(@Selector int time) {
