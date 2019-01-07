@@ -32,7 +32,7 @@ public class PreStopHealthIndicator extends AbstractHealthIndicator {
 	}
 
 	/**
-	 * Executed if actuator endpoint ('/preStop') will be invoked.</br>
+	 * Executed if actuator endpoint ('/preStop') will be invoked.<br/>
 	 * 
 	 * Timeout is {@link #DEFAULT_TIMEOUT}.
 	 * 
@@ -44,7 +44,7 @@ public class PreStopHealthIndicator extends AbstractHealthIndicator {
 	}
 
 	/**
-	 * Executed if actuator endpoint ('/preStop/{timeout_in_seconds}') will be invoked.</br>
+	 * Executed if actuator endpoint ('/preStop/{timeout_in_seconds}') will be invoked.<br/>
 	 * 
 	 * Timeout has to be an integer value.
 	 * 
