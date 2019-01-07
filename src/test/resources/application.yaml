@@ -1,0 +1,9 @@
+logging:
+  level:
+    org.zalando.spring.k8s: DEBUG
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
