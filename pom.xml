@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.zalando.spring</groupId>
     <artifactId>k8s-prestop-starter</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0-beta-2-SNAPSHOT</version>
 
     <name>K8S - PresStop Actuator Spring-Boot Starter</name>
     <description>Spring-Boot starter for Lifecycle PreStop Hook</description>
