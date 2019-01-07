@@ -10,7 +10,6 @@ import org.springframework.boot.actuate.endpoint.annotation.Selector;
 import org.springframework.boot.actuate.health.AbstractHealthIndicator;
 import org.springframework.boot.actuate.health.Health.Builder;
 import org.springframework.boot.actuate.health.Status;
-import org.springframework.stereotype.Component;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -21,7 +20,6 @@ import lombok.extern.slf4j.Slf4j;
  * @author jbellmann
  */
 @Slf4j
-@Component
 @Endpoint(id = "preStop")
 public class PreStopHealthIndicator extends AbstractHealthIndicator {
 
